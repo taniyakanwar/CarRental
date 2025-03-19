@@ -1,0 +1,15 @@
+[package]
+name = "BCR"
+version = "1.0.0"
+authors = []
+
+[addresses]
+CarRental = "0xb979cf7eef8660b21a9c5316470dce9081ac8013af0ed43d3d55426bd3680220"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
